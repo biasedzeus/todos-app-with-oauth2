@@ -5,9 +5,42 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 54%, rgba(255,171,0,1) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* HOME PAGE */
+
+
+
+.homepage-buttons{
+
+  width: 10vw;
+  font-size: 2vw;
+  margin: 20%;
+  background-color: white;
+  border: none;
+  border-radius: 10vmin;
+
+  
+}
+.homepage-buttons:hover{
+transform: scale(1.1);
+transition: 200ms ease-in-out;
+}
+
+h1{
+
+  font-size: 8.3rem;
+}
+
+h1:hover{
+  color: rgb(131,58,180);
+color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,171,0,1) 100%);
+}
+
